@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -16,7 +17,9 @@
   <!-- HEADER -->
   <header class="header">
     <div class="container">
-      <h1 class="logo">La Trattoria</h1>
+      <h1 class="logo">
+        <span>🍝</span> La Trattoria
+      </h1>
 
       <nav class="nav">
         <a href="#menu">Carta</a>
@@ -41,52 +44,193 @@
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section">
+  <section id="about" class="section about">
     <div class="container">
+
       <h2>Sobre nosotros</h2>
-      <p>
-        Somos un restaurante familiar especializado en cocina italiana tradicional.
-      </p>
+
+      <div class="about-grid">
+
+        <div class="about-text">
+          <p>
+            La Trattoria nace como un restaurante familiar con una idea muy simple:
+            traer la auténtica cocina italiana a Granada sin perder su esencia.
+          </p>
+
+          <p>
+            Trabajamos con ingredientes frescos, recetas tradicionales y una forma de cocinar
+            que respeta el producto por encima de todo.
+          </p>
+
+          <p>
+            Aquí no hay prisas. Hay pasta hecha al momento, pizzas horneadas con calma y
+            un ambiente pensado para disfrutar.
+          </p>
+        </div>
+
+        <div class="about-highlight">
+          <h3>🍝 Cocina artesanal</h3>
+          <p>Recetas tradicionales italianas</p>
+
+          <h3>🌿 Ingredientes frescos</h3>
+          <p>Producto local y de calidad</p>
+
+          <h3>🍷 Ambiente acogedor</h3>
+          <p>Perfecto para familia y amigos</p>
+        </div>
+
+      </div>
+
     </div>
   </section>
 
   <!-- MENU -->
-  <div class="menu-grid">
-
-    <div class="menu-item">
-      <div>
-        <h3>Pasta Carbonara</h3>
-        <p>Clásica receta italiana con panceta y huevo</p>
-      </div>
-      <span>12€</span>
-    </div>
-
-    <div class="menu-item">
-      <div>
-        <h3>Pizza Margarita</h3>
-        <p>Tomate, mozzarella y albahaca fresca</p>
-      </div>
-      <span>10€</span>
-    </div>
-
-    <div class="menu-item">
-      <div>
-        <h3>Vino de la casa</h3>
-        <p>Tinto o blanco servido a temperatura ideal</p>
-      </div>
-      <span>3€</span>
-    </div>
-
-  </div>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section">
+  <section id="menu" class="section">
     <div class="container">
-      <h2>Contacto</h2>
-      <p>📍 Granada</p>
-      <p>📞 600 000 000</p>
+      <h2>Nuestra carta</h2>
+
+      <!-- BEBIDAS -->
+      <h3 class="menu-category">Bebidas</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <h4>Coca Cola</h4>
+            <p>Refresco clásico</p>
+          </div>
+          <span>2€</span>
+        </div>
+
+        <div class="menu-item">
+          <div>
+            <h4>Cerveza artesanal</h4>
+            <p>Elaboración local</p>
+          </div>
+          <span>3.5€</span>
+        </div>
+      </div>
+
+      <!-- ANTIPASTI -->
+      <h3 class="menu-category">Antipasti</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <h4>Bruschetta</h4>
+            <p>Pan tostado con tomate y albahaca</p>
+          </div>
+          <span>6€</span>
+        </div>
+
+        <div class="menu-item">
+          <div>
+            <h4>Carpaccio</h4>
+            <p>Ternera con parmesano</p>
+          </div>
+          <span>9€</span>
+        </div>
+      </div>
+
+      <!-- PASTA -->
+      <h3 class="menu-category">Pasta</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <h4>Carbonara</h4>
+            <p>Pasta con huevo, panceta y pecorino</p>
+          </div>
+          <span>12€</span>
+        </div>
+
+        <div class="menu-item">
+          <div>
+            <h4>Bolognesa</h4>
+            <p>Salsa tradicional de carne</p>
+          </div>
+          <span>11€</span>
+        </div>
+      </div>
+
+      <!-- PIZZA -->
+      <h3 class="menu-category">Pizza</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <h4>Margarita</h4>
+            <p>Tomate, mozzarella y albahaca</p>
+          </div>
+          <span>10€</span>
+        </div>
+
+        <div class="menu-item">
+          <div>
+            <h4>4 Formaggi</h4>
+            <p>Mezcla de quesos italianos</p>
+          </div>
+          <span>13€</span>
+        </div>
+      </div>
+
+      <!-- POSTRES -->
+      <h3 class="menu-category">Postres</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <h4>Tiramisú</h4>
+            <p>Clásico italiano</p>
+          </div>
+          <span>6€</span>
+        </div>
+
+        <div class="menu-item">
+          <div>
+            <h4>Panna Cotta</h4>
+            <p>Con coulis de frutos rojos</p>
+          </div>
+          <span>5€</span>
+        </div>
+      </div>
+
     </div>
   </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+
+      <h2>Contacto</h2>
+
+      <div class="contact-grid">
+
+        <!-- INFO -->
+        <div class="contact-info">
+          <h3>Ven a visitarnos</h3>
+
+          <p>📍 Calle Ejemplo 123, Granada</p>
+          <p>📞 600 000 000</p>
+          <p>✉️ hola@latrattoria.com</p>
+
+          <p class="hours">
+            🕒 Lunes a Domingo<br>
+            13:00 - 16:00 / 20:00 - 23:30
+          </p>
+        </div>
+
+        <!-- CTA -->
+        <div class="contact-cta">
+          <h3>¿Quieres reservar?</h3>
+          <p>Te respondemos en menos de 24h.</p>
+
+          <a class="btn primary" href="tel:600000000">Llamar ahora</a>
+          <a class="btn secondary" href="mailto:hola@latrattoria.com">Enviar email</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <a href="https://wa.me/34600000000" class="whatsapp-float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
   <!-- FOOTER -->
   <footer class="footer">
