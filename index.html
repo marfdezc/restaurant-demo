@@ -5,11 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>La Trattoria | Restaurante Italiano</title>
-
-  <meta
-    name="description"
-    content="Auténtica comida italiana en Granada. Pasta fresca, pizza artesanal y ambiente acogedor."
-  />
+  <meta name="description" content="Restaurante italiano en Granada con pasta fresca y pizza artesanal." />
 
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/styles.css" />
@@ -17,16 +13,63 @@
 
 <body>
 
-  <header>
-    <h1>La Trattoria</h1>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">La Trattoria</h1>
+
+      <nav class="nav">
+        <a href="#menu">Carta</a>
+        <a href="#about">Sobre nosotros</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h2>Auténtica comida italiana en Granada</h2>
+      <p>Pasta fresca, pizza artesanal y ambiente acogedor.</p>
+      <a class="btn" href="#menu">Ver carta</a>
+    </div>
+  </section>
 
-  </main>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Sobre nosotros</h2>
+      <p>
+        Somos un restaurante familiar especializado en cocina italiana tradicional.
+      </p>
+    </div>
+  </section>
 
-  <footer>
+  <!-- MENU -->
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>Nuestra carta</h2>
 
+      <ul class="menu">
+        <li>🍝 Pasta carbonara — 12€</li>
+        <li>🍕 Pizza margarita — 10€</li>
+        <li>🍷 Vino de la casa — 3€</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>📍 Granada</p>
+      <p>📞 600 000 000</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 La Trattoria</p>
   </footer>
 
   <script src="js/main.js"></script>
