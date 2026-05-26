@@ -26,12 +26,17 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <section class="hero">
-    <div class="container">
-      <h2>Auténtica comida italiana en Granada</h2>
-      <p>Pasta fresca, pizza artesanal y ambiente acogedor.</p>
-      <a class="btn" href="#menu">Ver carta</a>
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h2>Auténtica comida italiana en Granada</h2>
+        <p>Pizza artesanal, pasta fresca y vino como en Italia.</p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#menu">Ver carta</a>
+          <a class="btn secondary" href="#contact">Reservar mesa</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -46,17 +51,33 @@
   </section>
 
   <!-- MENU -->
-  <section id="menu" class="section">
-    <div class="container">
-      <h2>Nuestra carta</h2>
+  <div class="menu-grid">
 
-      <ul class="menu">
-        <li>🍝 Pasta carbonara — 12€</li>
-        <li>🍕 Pizza margarita — 10€</li>
-        <li>🍷 Vino de la casa — 3€</li>
-      </ul>
+    <div class="menu-item">
+      <div>
+        <h3>Pasta Carbonara</h3>
+        <p>Clásica receta italiana con panceta y huevo</p>
+      </div>
+      <span>12€</span>
     </div>
-  </section>
+
+    <div class="menu-item">
+      <div>
+        <h3>Pizza Margarita</h3>
+        <p>Tomate, mozzarella y albahaca fresca</p>
+      </div>
+      <span>10€</span>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h3>Vino de la casa</h3>
+        <p>Tinto o blanco servido a temperatura ideal</p>
+      </div>
+      <span>3€</span>
+    </div>
+
+  </div>
 
   <!-- CONTACT -->
   <section id="contact" class="section">
